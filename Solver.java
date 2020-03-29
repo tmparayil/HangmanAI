@@ -19,7 +19,7 @@ class Solver
 
 	public static void GetRequest() throws IOException
 	{
-		URL urlForGetRequest = new URL("http://gallows.hulu.com/play?code=tparayil@uci.edu");
+		URL urlForGetRequest = new URL("http://gallows.hulu.com/play?code=xxx@abc.edu");
     	String readLine = null;
     	HttpURLConnection conection = (HttpURLConnection) urlForGetRequest.openConnection();
     	conection.setRequestMethod("GET");
@@ -41,7 +41,7 @@ class Solver
 			while(status.equals("ALIVE"))
 			{
 				char guess = ai.makeGuess(obj.getState());	
-				String newURL = "http://gallows.hulu.com/play?code=tparayil@uci.edu" + "&token="+obj.getToken()+"&guess="+guess;
+				String newURL = "http://gallows.hulu.com/play?code=xxx@abc.edu" + "&token="+obj.getToken()+"&guess="+guess;
 				URL newURLForGet = new URL(newURL);
 				String newLine = "";
 				HttpURLConnection secConn = (HttpURLConnection) newURLForGet.openConnection();
