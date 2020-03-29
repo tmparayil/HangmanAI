@@ -7,7 +7,7 @@ echo "Running the hangman game"
 file=$1
 #Check done#
 
-if [ $file == "tparayil@uci.edu" ]; then
+if [ $file == "xxx@abc.edu" ]; then
 		for ((i = 0 ; i < $2 ; i++)); do
   		{
   			javac HangmanAI.java;
