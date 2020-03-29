@@ -1,0 +1,10 @@
+
+Please run run.sh by passing useremail and number of times you would want to execute the application.
+
+
+To be executed:
+sh run.sh tparayil@uci.edu 100
+
+OR 
+
+./run.sh tparayil@uci.edu 100
